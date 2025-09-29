@@ -1,1 +1,3 @@
 # speech-ai
+
+This is a full-stack web application made using FastAPI (Python) and React that enables users to upload PDF presentations, record speeches, and receive AI-generated evaluations from two virtual judges - one analyzing delivery/communication (using librosa for audio analysis and Whisper for transcription) and another evaluating content relevance (using LangChain with FAISS vector similarity and GPT-3.5). Implemented secure file uploads, audio recording via browser MediaRecorder API, and a clean dashboard displaying scores across 8 evaluation metrics, with optional follow-up question generation.
